@@ -1,0 +1,41 @@
+#es-rc #es-rc-content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.2;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #000;
+  background: #fff;
+}
+#es-rc #es-rc-content * {
+  box-sizing: border-box;
+}
+#es-rc #es-rc-content p {
+  margin: 0;
+}
+#es-rc #es-rc-content img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#es-rc #es-rc-content .es-title {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  color: #1d1d1b;
+  font-weight: 700;
+}
+#es-rc #es-rc-content .es-subtitle {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  color: #1d1d1b;
+  font-weight: 700;
+}
+#es-rc #es-rc-content .es-title span {
+  font-weight: 700;
+}/*# sourceMappingURL=styles.css.map */
