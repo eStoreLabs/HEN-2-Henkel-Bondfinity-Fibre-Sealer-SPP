@@ -68,6 +68,7 @@
   top: 10%;
   left: 1%;
   animation: slideleft 0.5s ease-in-out;
+  z-index: 3;
 }
 #es-rc #es-rc-content .es-kv__title {
   margin: 0;
@@ -95,6 +96,8 @@
   font-weight: 600;
   text-align: left;
   font-size: 13px;
+  position: relative;
+  z-index: 3;
 }
 #es-rc #es-rc-content .es-kv__image {
   max-width: 100%;
@@ -448,13 +451,16 @@
     display: block;
   }
   #es-rc #es-rc-content .es-kv__content {
-    top: 11%;
-    left: 4%;
+    top: 10%;
+    left: 2%;
   }
   #es-rc #es-rc-content .es-kv__title {
-    font-size: 30px;
+    font-size: 35px;
     z-index: 3;
     position: relative;
+  }
+  #es-rc #es-rc-content .es-kv__title--bold {
+    font-size: 35px;
   }
   #es-rc #es-rc-content .es-kv__subtitle {
     font-size: 25px;
